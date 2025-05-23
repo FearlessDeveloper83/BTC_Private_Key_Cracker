@@ -1,6 +1,9 @@
 BTC Private Key Cracker
 
-This python tool is used to get private key of a BTC address from within a list of such addresses.
+This Python tool is used to get the private key of a BTC address from a list of such addresses.
+
+
+
 
 
 REQUIREMENTS:
@@ -31,6 +34,10 @@ check3.py -r btc.txt -o found_key.txt -t 128 --gpu (GPU, depending on how many C
 
 
 
+
+
 -r: Input file containing BTC addresses to look for
--o: Output file path to save valid keys
+
+-o: Output file path to save found keys
+
 -t: threads to use of the corresponding component (CPU or GPU)
