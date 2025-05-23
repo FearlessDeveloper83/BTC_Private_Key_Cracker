@@ -12,11 +12,12 @@ WINDOWS:
 pip install bit bip32utils
 
 
-run python3 check.py 
+run python3 check3.py 
 
 
-Example: check2.py -r btc.txt -o found_key.txt -t 2 (CPU)
-         check2.py -r btc.txt -o found_key.txt -t 128 --gpu (GPU, depending on how many CUDA cores you have)
+Example: 
+check3.py -r btc.txt -o found_key.txt -t 2 (CPU)
+check3.py -r btc.txt -o found_key.txt -t 128 --gpu (GPU, depending on how many CUDA cores you have)
 
 -r: Input file containing BTC addresses to look for
 -o: Output file path to save valid keys
